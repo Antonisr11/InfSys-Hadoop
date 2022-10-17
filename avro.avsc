@@ -1,0 +1,11 @@
+{ 
+	"namespace": "app",
+	"type": "record",
+	"name": "avro",
+	"fields": [
+		{"name": "date", "type": "string"},
+		{"name": "country", "type": "string"},
+		{"name": "city", "type": "string"},
+		{"name": "value", "type": "double"}
+	]
+} 

@@ -1,0 +1,42 @@
+.mymenu {
+	color: lightgrey
+}
+
+.mymenu .active {
+	color: #673AB7
+}
+
+#heading {
+	text-transform: uppercase;
+	color: #673AB7;
+	font-weight: normal
+}
+
+.progress {
+	height: 20px
+}
+
+.progress-bar {
+	background-color: #673AB7
+}
+
+.action-button {
+	width: 100px;
+	background: #673AB7;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 0px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 0px 10px 5px;
+	float: right
+}
+
+.action-button:hover:enabled, .action-button:focus:enabled {
+	background-color: #311B92
+}
+
+.action-button:disabled, .action-button[disabled] {
+	background-color: lightgrey
+}
